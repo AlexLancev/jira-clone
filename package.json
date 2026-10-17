@@ -1,0 +1,21 @@
+{
+  "name": "enterprise-task-manager",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Enterprise Task Manager monorepo (NestJS, Next.js, tRPC, Prisma)",
+  "packageManager": "pnpm@9.15.4",
+  "engines": {
+    "node": ">=20.11.0",
+    "pnpm": ">=9.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm -r --parallel --if-present run dev",
+    "build": "pnpm -r --if-present run build",
+    "lint": "pnpm -r --if-present run lint",
+    "typecheck": "pnpm -r --if-present run typecheck",
+    "clean": "pnpm -r --if-present run clean"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
